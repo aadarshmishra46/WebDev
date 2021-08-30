@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: red;">CSS Selector</title>
+    <style>
+        /* element Selector */
+        /* p{
+            color: red;
+            background-color: yellow;
+        } */
+
+        /* id Selector */
+        #firstP{
+            background-color: tomato;
+            color: black;
+        }
+        /* class selector */
+        .A{
+            color: blue;
+        }
+        /* group selector */
+        footer,span{
+            border: 2px solid red;
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h3>CSS Selector</h3>
+    <p id="firstP">this is first paragraph</p>
+    <p class="A">this is second paragraph</p>
+    <p class="A" id="firstP">this is third paragraph</p>
+    <footer>This is footer</footer>
+    <div>
+        <p>this is div block paragraph</p>
+        <span>this is span</span>
+    </div>
+</body>
+</html>
